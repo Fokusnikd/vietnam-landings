@@ -1,0 +1,560 @@
+{
+  "origin": "https://vietnam-landings.vercel.app",
+  "packageNames": {
+    "start": "Start",
+    "booking": "Booking",
+    "premium": "Premium"
+  },
+  "placeholders": {
+    "days": "<N>",
+    "timeline": {
+      "start": "<X–Y>",
+      "booking": "<X–Y>",
+      "premium": "<X–Y>",
+      "faq": "<X–Y>"
+    },
+    "payment": {
+      "vi": "<điều khoản thanh toán>",
+      "en": "<payment terms>"
+    },
+    "usd": "<…>",
+    "phones": {
+      "zalo": "<ZALO_PHONE>",
+      "whatsapp": "<WA_PHONE>",
+      "phone": "<PHONE>"
+    },
+    "response": {
+      "vi": "<thời gian phản hồi>",
+      "en": "<response time>"
+    },
+    "city": {
+      "vi": "<Thành phố làm việc>",
+      "en": "<City>"
+    },
+    "demoUrl": "<URL demo>",
+    "phoneShown": {
+      "vi": "<số điện thoại>",
+      "en": "<phone number>"
+    },
+    "photo": null
+  },
+  "notes": {
+    "photo": "NEEDS PHOTO. Show the monogram until a photo is provided. Do not use a stock face.",
+    "demoUrlSpecName": "<URL демо>",
+    "remedyConsent": "Pending consent from the Remedy Spa owner before publication.",
+    "viReview": "Vietnamese copy still needs a native-speaker check.",
+    "domainHosting": "Do not show domain or hosting prices."
+  },
+  "messages": {
+    "vi": {
+      "general": "Xin chào, tôi muốn được tư vấn làm website cho spa.",
+      "start": "Xin chào, tôi muốn được tư vấn làm website cho spa. Gói: Start (4.000.000 ₫).",
+      "booking": "Xin chào, tôi muốn được tư vấn làm website cho spa. Gói: Booking (6.500.000 ₫).",
+      "premium": "Xin chào, tôi muốn được tư vấn làm website cho spa. Gói: Premium (12.000.000 ₫)."
+    },
+    "en": {
+      "general": "Hello, I would like a website proposal for my spa.",
+      "start": "Hello, I would like a website proposal for my spa. Package: Start (4,000,000 VND).",
+      "booking": "Hello, I would like a website proposal for my spa. Package: Booking (6,500,000 VND).",
+      "premium": "Hello, I would like a website proposal for my spa. Package: Premium (12,000,000 VND)."
+    }
+  },
+  "images": {
+    "vi": {
+      "home": "/renders/remedy-mobile-home-vi.webp",
+      "booking": "/renders/remedy-mobile-booking-vi.webp",
+      "request": "/renders/remedy-mobile-request-vi.webp",
+      "desktop": "/renders/remedy-desktop-vi.webp"
+    },
+    "en": {
+      "home": "/renders/remedy-mobile-home-en.webp",
+      "booking": "/renders/remedy-mobile-booking-en.webp",
+      "request": "/renders/remedy-mobile-request-en.webp",
+      "desktop": "/renders/remedy-desktop-en.webp"
+    }
+  },
+  "packages": [
+    {
+      "id": "start",
+      "name": "Start",
+      "price": { "vi": "4.000.000 ₫", "en": "4,000,000 VND" }
+    },
+    {
+      "id": "booking",
+      "name": "Booking",
+      "price": { "vi": "6.500.000 ₫", "en": "6,500,000 VND" }
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "price": { "vi": "12.000.000 ₫", "en": "12,000,000 VND" }
+    }
+  ],
+  "demos": [
+    { "img": "home", "fit": "start" },
+    { "img": "booking", "fit": "booking" },
+    { "img": "request", "fit": "booking" }
+  ],
+  "copy": {
+    "vi": {
+      "title": "Website cho spa & massage tại TP.HCM — từ 4.000.000 ₫ | studio/digital",
+      "description": "Giúp khách tìm thấy spa, xem dịch vụ và đặt lịch thuận tiện. Dành cho spa tại Việt Nam và khách quốc tế.",
+      "skip": "Đến nội dung",
+      "navLabel": "Mục lục",
+      "barLabel": "Liên hệ",
+      "brand": "studio/digital",
+      "langBtn": "English",
+      "hdrPrices": "Bảng giá",
+      "nav": ["Mẫu website", "Gói dịch vụ", "Câu hỏi", "Bảo trì"],
+      "hdrCta": "Nhắn Zalo",
+      "eyebrow": "Giải pháp số cho spa và massage",
+      "h1": "Website tinh tế.\nĐặt lịch dễ dàng hơn.",
+      "sub": "Giúp khách tìm thấy spa, xem dịch vụ và đặt lịch thuận tiện. Dành cho spa tại Việt Nam và khách quốc tế.",
+      "priceLine": "Từ 4.000.000 ₫ · trả một lần · bàn giao trong {days} ngày",
+      "heroCta": "Nhắn Zalo tư vấn",
+      "heroCta2": "Xem bảng giá ↓",
+      "strip": ["Song ngữ Việt + Anh", "Tối ưu điện thoại", "Bảo hành sửa lỗi 30 ngày"],
+      "heroAlt": "Dự án mẫu Remedy Spa",
+      "demoOver": "Mẫu website cho spa",
+      "demoTitle": "Website của bạn sẽ trông như thế này",
+      "demoLead": "Đây là dự án mẫu tôi thiết kế cho một spa ở Quận 1 để bạn xem trước kết quả. Chưa phải khách hàng, chưa phát hành.",
+      "demoBadge": "Dự án mẫu",
+      "demoName": "Remedy Spa",
+      "demos": [
+        ["Trang giới thiệu", "Phù hợp gói Start"],
+        ["Chọn giờ trống và đặt lịch", "Phù hợp gói Booking"],
+        ["Xác nhận yêu cầu đặt lịch", "Phù hợp gói Booking"]
+      ],
+      "demoLink": "Xem demo",
+      "demoNote": "Ảnh chụp từ bản thiết kế. Chữ trong [ngoặc vuông] là phần spa sẽ cung cấp.",
+      "swipe": "Vuốt để xem thêm →",
+      "pkOver": "Giá minh bạch",
+      "pkTitle": "Chọn gói phù hợp với spa",
+      "pkLead": "Phí làm website thanh toán một lần. Bảo trì được tính riêng với phạm vi rõ ràng.",
+      "rec": "Đề xuất",
+      "oneTime": "Phí triển khai một lần",
+      "kTime": "Thời gian",
+      "vTime": "{timeline} ngày làm việc",
+      "kPay": "Thanh toán",
+      "vPay": "{payment}",
+      "usd": "",
+      "choose": "Chọn gói {gói} qua Zalo",
+      "chooseAlt": "hoặc nhắn WhatsApp",
+      "chooseHint": "Mở Zalo với tin nhắn mẫu có sẵn tên gói",
+      "pk": [
+        {
+          "num": "01 / START",
+          "name": "Start",
+          "title": "Website giới thiệu spa",
+          "desc": "Trang web chuyên nghiệp giới thiệu dịch vụ, hình ảnh và thông tin liên hệ.",
+          "price": "4.000.000 ₫",
+          "feat": [
+            "Một trang landing page tối ưu điện thoại",
+            "Dịch vụ, bảng giá và thư viện ảnh",
+            "Liên kết Zalo, WhatsApp và gọi điện",
+            "Bản đồ và hướng dẫn liên kết website với hồ sơ Google",
+            "Tiếng Việt và tiếng Anh",
+            "SEO on-page cơ bản",
+            "Thiết kế theo mẫu có sẵn · 2 vòng chỉnh sửa"
+          ]
+        },
+        {
+          "num": "02 / BOOKING",
+          "name": "Booking",
+          "title": "Đặt lịch thuận tiện",
+          "desc": "Cho phép khách chọn giờ trống và đặt lịch trực tuyến.",
+          "price": "6.500.000 ₫",
+          "feat": [
+            "Toàn bộ tính năng gói Start",
+            "Kết nối Google Calendar và hiển thị giờ trống",
+            "Xác nhận lịch hẹn cơ bản",
+            "Thêm 1 ngôn ngữ ngoài Việt + Anh",
+            "2 vòng chỉnh sửa"
+          ]
+        },
+        {
+          "num": "03 / PREMIUM",
+          "name": "Premium",
+          "title": "Trải nghiệm khác biệt",
+          "desc": "Thiết kế riêng và công cụ quản lý lịch hẹn nội bộ.",
+          "price": "12.000.000 ₫",
+          "feat": [
+            "Toàn bộ tính năng gói Booking",
+            "Thiết kế giao diện riêng",
+            "Trang quản lý đặt lịch nội bộ",
+            "Xem, thêm và chỉnh sửa lịch hẹn",
+            "Thêm 1 ngôn ngữ ngoài Việt + Anh",
+            "3 vòng chỉnh sửa",
+            "Khuyến nghị gói bảo trì Pro"
+          ]
+        }
+      ],
+      "cmpOver": "So sánh",
+      "cmpTitle": "So sánh 3 gói",
+      "cmpFeature": "Tính năng",
+      "cmpHint": "Chạm để xem từng gói",
+      "yes": "Có",
+      "no": "Không",
+      "compare": [
+        { "label": "Landing page, dịch vụ và bảng giá", "values": ["1", "1", "1"] },
+        { "label": "Ngôn ngữ", "values": ["Việt + Anh", "Việt + Anh + 1", "Việt + Anh + 1"] },
+        { "label": "SEO cơ bản", "values": ["1", "1", "1"] },
+        { "label": "Liên kết Zalo, WhatsApp, gọi điện", "values": ["1", "1", "1"] },
+        { "label": "Đặt lịch qua Google Calendar", "values": ["0", "1", "1"] },
+        { "label": "Thiết kế giao diện riêng", "values": ["0", "0", "1"] },
+        { "label": "Trang quản lý lịch hẹn nội bộ", "values": ["0", "0", "1"] },
+        { "label": "Vòng chỉnh sửa", "values": ["2", "2", "3"] },
+        { "label": "Bảo hành sửa lỗi 30 ngày", "values": ["1", "1", "1"] }
+      ],
+      "cmpNote": "Mỗi gói dành cho một cơ sở và một landing page. Hosting, tên miền và bảo trì được báo giá riêng. Google kiểm soát việc duyệt hồ sơ doanh nghiệp và kết quả tìm kiếm.",
+      "meOver": "Người thực hiện",
+      "meName": "Aleksandr",
+      "meRole": "Thiết kế và làm website cho spa, massage",
+      "meText": "Bạn trao đổi trực tiếp với tôi qua Zalo, từ lúc tư vấn đến khi bàn giao website.",
+      "meCity": "{city}",
+      "meBtn": "Nhắn Zalo cho Aleksandr",
+      "meNum": "Zalo: {phone}",
+      "faqOver": "Trước khi chọn gói",
+      "faqTitle": "Câu hỏi thường gặp",
+      "faq": [
+        {
+          "q": "Tôi đã có Facebook và Google Maps, cần website làm gì?",
+          "a": "Website không thay thế Facebook hay Google Maps mà bổ sung cho chúng. Đây là trang riêng của spa: khách xem dịch vụ và bảng giá bằng tiếng Việt hoặc tiếng Anh, rồi nhắn Zalo, gọi điện hoặc đặt lịch (gói Booking). Bạn gắn link website vào hồ sơ Google Maps và trang Facebook, tôi hướng dẫn cách gắn."
+        },
+        {
+          "q": "Bao lâu thì xong?",
+          "a": "{timeline} ngày làm việc kể từ khi nhận đủ nội dung"
+        },
+        {
+          "q": "Tôi cần trả trước bao nhiêu?",
+          "a": "{payment}"
+        },
+        {
+          "q": "Đã bao gồm bảo trì chưa?",
+          "a": "Chưa. Mỗi website được bảo hành lỗi 30 ngày. Bảo trì tính riêng."
+        },
+        {
+          "q": "Có đảm bảo thứ hạng Google không?",
+          "a": "Không. Có SEO cơ bản nhưng không thể đảm bảo thứ hạng, lưu lượng truy cập hay Google duyệt hồ sơ."
+        },
+        {
+          "q": "Spa cần cung cấp gì?",
+          "a": "Danh sách dịch vụ, giá, ảnh, địa chỉ, giờ mở cửa, liên hệ và người duyệt nội dung."
+        }
+      ],
+      "terms": "Điều khoản chi tiết",
+      "termsSub": "Một cơ sở · ngôn ngữ · số vòng chỉnh sửa · giới hạn đặt lịch · bảo hành · chi phí bên thứ ba",
+      "termsItems": [
+        {
+          "title": "Một cơ sở, một landing page",
+          "body": "Chi nhánh, trang và tích hợp bổ sung được báo giá riêng."
+        },
+        {
+          "title": "Ngôn ngữ và nội dung",
+          "body": "Start: Anh + Việt. Booking và Premium: Anh + Việt + một ngôn ngữ thêm. Khách cung cấp bảng giá, thông tin, ảnh có quyền sử dụng và xác nhận bản dịch."
+        },
+        {
+          "title": "Giới hạn chỉnh sửa",
+          "body": "Start và Booking: 2 vòng góp ý tổng hợp. Premium: 3 vòng. Tính năng mới và thiết kế lại tính riêng."
+        },
+        {
+          "title": "Giới hạn đặt lịch",
+          "body": "Booking bao gồm một tài khoản Google Calendar và chọn giờ trống cơ bản, tùy theo quyền truy cập nền tảng. Premium có bảng điều khiển đặt lịch cho một cơ sở. Không gồm thanh toán, CRM, tính lương hay lịch nhiều nhân viên phức tạp."
+        },
+        {
+          "title": "Bảo hành lỗi trong 30 ngày",
+          "body": "Trong 30 ngày từ nghiệm thu, lỗi thuộc chức năng đã thống nhất được sửa miễn phí. Nội dung mới, thay đổi nền tảng và tính năng mới không thuộc bảo hành."
+        },
+        {
+          "title": "Chi phí bên thứ ba",
+          "body": "Tên miền, hosting, tích hợp trả phí, tin nhắn và dịch vụ đăng ký được báo giá và duyệt riêng."
+        }
+      ],
+      "ctaOver": "Bắt đầu",
+      "ctaTitle": "Giúp khách tìm và đặt lịch spa dễ dàng hơn.",
+      "ctaText": "Nhắn tên spa và gói bạn quan tâm. Tôi trả lời trong {response}.",
+      "ctaMsg": "Nhắn Zalo",
+      "ctaMsg2": "WhatsApp",
+      "ctaCall": "Gọi {phone}",
+      "ctaCopy": "Sao chép nội dung tin nhắn",
+      "supOver": "Sau bàn giao",
+      "supTitle": "Bảo trì khi bạn cần",
+      "supLead": "Mỗi gói bao gồm 30 ngày sửa miễn phí các lỗi thuộc chức năng đã bàn giao. Bảo trì dài hạn tính riêng.",
+      "sup": [
+        {
+          "name": "Gói bảo trì Cơ bản",
+          "for": "Dành cho website giới thiệu",
+          "price": "500.000 ₫",
+          "per": "/ tháng",
+          "year": "Hoặc 5.000.000 ₫/năm, tiết kiệm khoảng 17%",
+          "feat": [
+            "Kiểm tra website hoạt động",
+            "Sửa lỗi kỹ thuật",
+            "Cập nhật bảo mật định kỳ",
+            "Sao lưu định kỳ",
+            "Tối đa 2 chỉnh sửa nội dung nhỏ mỗi tháng"
+          ]
+        },
+        {
+          "name": "Gói bảo trì Pro",
+          "for": "Dành cho website đặt lịch",
+          "price": "900.000 ₫",
+          "per": "/ tháng",
+          "year": "Hoặc 9.000.000 ₫/năm, tiết kiệm khoảng 17%",
+          "feat": [
+            "Toàn bộ dịch vụ gói Cơ bản",
+            "Bảo trì chức năng đặt lịch đã bàn giao",
+            "Kiểm tra kết nối đặt lịch",
+            "Ưu tiên xử lý lỗi nghiêm trọng",
+            "Tối đa 5 chỉnh sửa nội dung nhỏ mỗi tháng"
+          ]
+        }
+      ],
+      "supNote": "Chỉnh sửa nhỏ là thay chữ hoặc ảnh do spa cung cấp. Không gồm trang mới, dịch thuật, thiết kế lại và tính năng mới.",
+      "extra": "Thêm ngôn ngữ",
+      "extraPrice": "500.000 ₫",
+      "extraNote": "cho mỗi ngôn ngữ, theo nội dung trang hiện tại",
+      "ftLine": "Website cho spa và massage · Aleksandr",
+      "ftTag": "Giá minh bạch · Phạm vi rõ ràng · Tối ưu điện thoại",
+      "ftCopy": "© 2026 studio/digital",
+      "barMsg": "Nhắn Zalo",
+      "barCall": "Gọi",
+      "toastZalo": "Đã sao chép tin nhắn — dán vào Zalo",
+      "toastCopy": "Đã sao chép tin nhắn",
+      "modalTitle": "Sao chép tin nhắn",
+      "modalHint": "Trình duyệt không cho sao chép tự động. Hãy sao chép thủ công:",
+      "modalClose": "Đóng",
+      "modalOpen": "Mở Zalo"
+    },
+    "en": {
+      "title": "Websites for spa & massage studios in HCMC — from 4,000,000 VND",
+      "description": "Help customers discover your massage studio, explore treatments and book with confidence. Built for Vietnamese spa businesses and international guests.",
+      "skip": "Skip to content",
+      "navLabel": "On this page",
+      "barLabel": "Contact",
+      "brand": "studio/digital",
+      "langBtn": "Tiếng Việt",
+      "hdrPrices": "Prices",
+      "nav": ["Examples", "Packages", "FAQ", "Support"],
+      "hdrCta": "WhatsApp",
+      "eyebrow": "Digital presence for wellness businesses",
+      "h1": "A beautiful website.\nMore effortless bookings.",
+      "sub": "Help customers discover your massage studio, explore treatments and book with confidence. Built for Vietnamese spa businesses and international guests.",
+      "priceLine": "From 4,000,000 VND · one-time · delivered in {days} days",
+      "heroCta": "Message on WhatsApp",
+      "heroCta2": "See prices ↓",
+      "strip": ["EN + VI bilingual", "Mobile-first", "30-day bug-fix warranty"],
+      "heroAlt": "Sample project, Remedy Spa",
+      "demoOver": "Spa website examples",
+      "demoTitle": "This is what your website could look like",
+      "demoLead": "A sample project I designed for a spa in District 1 so you can preview the result. Not a client project, not published yet.",
+      "demoBadge": "Sample project",
+      "demoName": "Remedy Spa",
+      "demos": [
+        ["Home page", "Fits the Start package"],
+        ["Pick a free slot and book", "Fits the Booking package"],
+        ["Booking request sent", "Fits the Booking package"]
+      ],
+      "demoLink": "View demo",
+      "demoNote": "Screenshots of the design mockup. Text in [brackets] marks content the spa provides.",
+      "swipe": "Swipe for more →",
+      "pkOver": "Transparent pricing",
+      "pkTitle": "Choose the right fit for your studio",
+      "pkLead": "One-time website creation fees. Maintenance is separate, with clearly defined scope.",
+      "rec": "Recommended",
+      "oneTime": "One-time setup",
+      "kTime": "Timeline",
+      "vTime": "{timeline} working days",
+      "kPay": "Payment",
+      "vPay": "{payment}",
+      "usd": "≈ US$ {usd} (reference)",
+      "choose": "Choose {package} on WhatsApp",
+      "chooseAlt": "or message on Zalo",
+      "chooseHint": "Opens WhatsApp with the package name pre-filled",
+      "pk": [
+        {
+          "num": "01 / START",
+          "name": "Start",
+          "title": "Your online storefront",
+          "desc": "A polished home for your services, photos and contact details.",
+          "price": "4,000,000 VND",
+          "feat": [
+            "One mobile-friendly landing page",
+            "Services, prices and photo gallery",
+            "Zalo, WhatsApp and phone links",
+            "Map and Google Business Profile website-link guidance",
+            "English and Vietnamese",
+            "Basic on-page SEO",
+            "Template-based design · 2 revision rounds"
+          ]
+        },
+        {
+          "num": "02 / BOOKING",
+          "name": "Booking",
+          "title": "Bookings made easy",
+          "desc": "Let guests choose an available appointment online.",
+          "price": "6,500,000 VND",
+          "feat": [
+            "Everything in Start",
+            "Google Calendar integration with available slots",
+            "Basic appointment confirmation flow",
+            "1 language on top of EN + VI",
+            "2 revision rounds"
+          ]
+        },
+        {
+          "num": "03 / PREMIUM",
+          "name": "Premium",
+          "title": "Your signature experience",
+          "desc": "Custom design and an internal appointment management tool.",
+          "price": "12,000,000 VND",
+          "feat": [
+            "Everything in Booking",
+            "Unique visual design",
+            "Internal booking dashboard",
+            "View, add and edit appointments",
+            "1 language on top of EN + VI",
+            "3 revision rounds",
+            "Pro maintenance recommended"
+          ]
+        }
+      ],
+      "cmpOver": "Compare",
+      "cmpTitle": "Compare the 3 packages",
+      "cmpFeature": "Feature",
+      "cmpHint": "Tap to see each package",
+      "yes": "Yes",
+      "no": "No",
+      "compare": [
+        { "label": "Landing page, services and prices", "values": ["1", "1", "1"] },
+        { "label": "Languages", "values": ["EN + VI", "EN + VI + 1", "EN + VI + 1"] },
+        { "label": "Basic SEO", "values": ["1", "1", "1"] },
+        { "label": "Zalo, WhatsApp and call links", "values": ["1", "1", "1"] },
+        { "label": "Booking with Google Calendar", "values": ["0", "1", "1"] },
+        { "label": "Custom visual design", "values": ["0", "0", "1"] },
+        { "label": "Internal booking dashboard", "values": ["0", "0", "1"] },
+        { "label": "Revision rounds", "values": ["2", "2", "3"] },
+        { "label": "30-day defect warranty", "values": ["1", "1", "1"] }
+      ],
+      "cmpNote": "All packages cover one location and one landing page. Hosting, domain and ongoing maintenance are quoted separately. Google controls Google Business Profile approval and search results.",
+      "meOver": "Who builds it",
+      "meName": "Aleksandr",
+      "meRole": "Websites for spa and massage studios",
+      "meText": "You talk to me directly on WhatsApp, from the first question to handover.",
+      "meCity": "{city}",
+      "meBtn": "Message Aleksandr on WhatsApp",
+      "meNum": "WhatsApp: {phone}",
+      "faqOver": "Before you choose",
+      "faqTitle": "Good to know",
+      "faq": [
+        {
+          "q": "I already have Facebook and Google Maps. Why a website?",
+          "a": "A website does not replace Facebook or Google Maps, it works alongside them. It is the spa’s own page: guests see services and prices in Vietnamese or English, then message you, call, or book a time (Booking package). You add the website link to your Google Maps profile and Facebook page, and I show you how."
+        },
+        {
+          "q": "How long does it take?",
+          "a": "{timeline} working days from when all content is received"
+        },
+        {
+          "q": "How much do I pay upfront?",
+          "a": "{payment}"
+        },
+        {
+          "q": "Is maintenance included?",
+          "a": "No. Every website comes with a 30-day defect warranty. Maintenance is billed separately."
+        },
+        {
+          "q": "Can you guarantee Google rankings?",
+          "a": "No. Basic SEO is included, but rankings, traffic and Google Business Profile approval are not guaranteed."
+        },
+        {
+          "q": "What should the salon provide?",
+          "a": "Service names, prices, photos, address, opening hours, contact details and a person who can approve content."
+        }
+      ],
+      "terms": "Full terms",
+      "termsSub": "One location · languages · revision rounds · booking limits · warranty · third-party costs",
+      "termsItems": [
+        {
+          "title": "One location, one landing page",
+          "body": "Extra branches, pages and integrations are quoted separately."
+        },
+        {
+          "title": "Languages and content",
+          "body": "Start: EN + VI. Booking and Premium: EN + VI + one extra language. The client supplies accurate prices, business details and licensed images and approves translations."
+        },
+        {
+          "title": "Design revision limits",
+          "body": "Start and Booking: 2 consolidated rounds. Premium: 3. New features and complete redesigns are extra."
+        },
+        {
+          "title": "Booking boundaries",
+          "body": "Booking includes one Google Calendar account and basic time slots, subject to platform permissions. Premium adds a basic internal dashboard for one location. Payments, CRM, payroll and complex multi-staff logic are excluded."
+        },
+        {
+          "title": "30-day defect warranty",
+          "body": "For 30 days after acceptance, we fix defects in agreed delivered functions for free. New content, platform changes and new features are not warranty work."
+        },
+        {
+          "title": "Third-party costs",
+          "body": "Domain, hosting, paid integrations, messaging fees and external subscriptions are estimated and approved separately."
+        }
+      ],
+      "ctaOver": "Get started",
+      "ctaTitle": "Let’s make your spa easier to discover and book.",
+      "ctaText": "Send your spa name and the package you like. I reply within {response}.",
+      "ctaMsg": "Message on WhatsApp",
+      "ctaMsg2": "Zalo",
+      "ctaCall": "Call {phone}",
+      "ctaCopy": "Copy message text",
+      "supOver": "After launch",
+      "supTitle": "Care that continues when you need it",
+      "supLead": "Every package includes 30 days of free fixes for defects in the agreed delivered features. Ongoing support is separate.",
+      "sup": [
+        {
+          "name": "Standard Support",
+          "for": "For simple websites",
+          "price": "500,000 VND",
+          "per": "/ month",
+          "year": "Or 5,000,000 VND/year, save about 17%",
+          "feat": [
+            "Basic availability checks",
+            "Fixing technical issues",
+            "Routine security updates",
+            "Periodic backups where applicable",
+            "Up to 2 small content edits per month"
+          ]
+        },
+        {
+          "name": "Pro Support",
+          "for": "For booking websites",
+          "price": "900,000 VND",
+          "per": "/ month",
+          "year": "Or 9,000,000 VND/year, save about 17%",
+          "feat": [
+            "Everything in Standard",
+            "Maintenance of delivered booking functionality",
+            "Booking integration checks",
+            "Priority handling of critical bugs",
+            "Up to 5 small content edits per month"
+          ]
+        }
+      ],
+      "supNote": "Small edits mean replacing existing text or client-provided photos. New pages, translations, redesigns and features are excluded.",
+      "extra": "Additional language",
+      "extraPrice": "500,000 VND",
+      "extraNote": "per language, for existing page content",
+      "ftLine": "Websites for spa and massage studios · Aleksandr",
+      "ftTag": "Transparent pricing · Clear scope · Mobile-first",
+      "ftCopy": "© 2026 studio/digital",
+      "barMsg": "WhatsApp",
+      "barCall": "Call",
+      "toastZalo": "Message copied — paste it into Zalo",
+      "toastCopy": "Message copied",
+      "modalTitle": "Copy the message",
+      "modalHint": "The browser could not copy automatically. Copy it manually:",
+      "modalClose": "Close",
+      "modalOpen": "Open Zalo"
+    }
+  }
+}
